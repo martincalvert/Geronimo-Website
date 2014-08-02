@@ -1,0 +1,65 @@
+*{
+	font-family:myFirstFont
+}
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pad{
+	margin-bottom:20px
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:#003b6f;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.inners{
+	background-color: #eeeeee;
+	border-radius:6px;
+}
+
+.centerColumn{
+	height:inherit;
+	width:inherit;
+	padding: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee
+}
+
+
+.centerColumn h1, .centerColumn .h1 {
+    color: inherit
+}
+
+.centerColumn p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200
+}
+@font-face
+{
+font-family: myFirstFont;
+src: url(cinnamon.ttf);
+}
